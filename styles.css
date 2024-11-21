@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFE6A9;
+    margin:0;
+    padding:0;
+    color: #659287;
+    }
+    
+    header {
+    background-color: #DEAA79;
+    padding: 10px0;
+    }
+    
+    nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    }
+    
+    nav ul li {
+    margin: 0 15px;
+    }
+    
+    nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color0.3s;
+    }
+    
+    nav a:hover {
+    color: #B1C29E;
+    }
+    
+    main {
+    padding: 20px;
+    text-align: center;
+    }
+    
+    .services, .about {
+    max-width: 800px;
+    margin: auto;
+    }
+    
+    .service {
+    margin-bottom: 20px;
+    }
+    
+    .service img {
+    max-width:100%;
+    height: auto;
+    }
+    
+    footer {
+    background-color: #659287;
+    color: white;
+    text-align: center;
+    padding: 10px0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    }
+    
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+    nav ul {
+    flex-direction: column;
+    }
+    
+    nav ul li {
+    margin:10px 0;
+    }
+    }
